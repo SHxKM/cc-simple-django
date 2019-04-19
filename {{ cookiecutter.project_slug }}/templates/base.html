@@ -1,0 +1,32 @@
+<!doctype html>
+{% raw %}{% load static %}{% endraw %}
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <title>{{ cookiecutter.project_slug }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
+
+  {% raw %}<link href="{% static "main.css" %}"{% endraw %}
+  rel="stylesheet"
+  media="screen">
+</head>
+
+<body>
+  {% raw %}{% include 'navbar.html' %}{% endraw %}
+  <div class="container">
+    {% raw %}{% block content %}{% endraw %}
+    
+    {% raw %}{% endblock %}{% endraw %}
+
+  </div>
+
+</body>
+</html>
