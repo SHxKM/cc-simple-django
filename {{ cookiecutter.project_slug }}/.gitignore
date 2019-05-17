@@ -1,0 +1,8 @@
+.idea
+db.sqlite3
+Pipfile.lock
+*/settings.py
+*.pyc
+*.idea
+*__pycache__*
+.vscode
