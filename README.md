@@ -5,7 +5,7 @@
 Requires: [`cookiecutter`](https://github.com/audreyr/cookiecutter)
 
 1. Includes (CDNs): Bootstrap, jQuery  
-2. No apps installed by default
+2. No Django apps installed by default
 3. Very basic Bootstrap based template
 4. Pipfile for `pipenv` support
 
